@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+  }
+  
+  .form-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #surat-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #gambar-container {
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  body {
+    background-image: url("background.jpg");
+    background-size: 1030px;
+    background-position: center;
+    background-repeat: chrome1;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .form-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #surat-container {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  #gambar-container {
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  

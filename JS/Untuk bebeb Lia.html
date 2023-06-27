@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game Surat Cinta</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <p style="font-weight:bold;"></p>
+  <h1>Game Surat Cinta</h1>
+  
+  <div class="form-container">
+    <label for="penerima">Nama Penerima Surat: <p></label>
+    <input type="text" id="penerima">
+    <br>
+    <button onclick="tulisSuratCinta()">Tulis Surat Cinta</button>
+  </div>
+
+  <div id="surat-container" class="hidden">
+    <h2>Surat Cinta:</h2>
+    <div id="gambar-container">
+      <img src="gambar.jpg" alt="Gambar Surat Cinta"height="300"widht="300">
+    </div>
+    <pre id="surat"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
